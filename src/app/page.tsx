@@ -6,6 +6,7 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -48,8 +49,12 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+        <br />
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+        <Link href="/cv.pdf" target="_blank"><Button>Download CV</Button></Link>
+        </BlurFade>
       </section>
-      <section id="work">
+        <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>

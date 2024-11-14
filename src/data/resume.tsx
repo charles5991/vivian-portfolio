@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Logical and hardworking mathematics lover with a passion for data and analysis. I possess communication skills and always ensure that the work completed on time and to a high standard.",
   summary:
-    "Seeking a challenging role that involve data engineering, cloudbased data solutions, and the integration of machine learning and AI to drive insightful decision-making and innovative solutions.",
+    "Seeking a challenging role that involve data engineering, cloud-based data solutions, and the integration of machine learning and AI to drive insightful decision-making and innovative solutions.",
   avatarUrl: "/me.png",
   skills: [
     "R",

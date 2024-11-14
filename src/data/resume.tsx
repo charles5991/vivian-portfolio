@@ -2,9 +2,9 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "VIVIAN SYLVIA TING",
+  name: "Vivian Sylvia Ting",
   initials: "DV",
-  url: "https://dillion.io",
+  // url: "https://dillion.io",
   location: "Kuala Lumpur, MY",
   locationLink: "https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur/@3.1385059,101.6869895,12z/data=!3m1!4b1!4m6!3m5!1s0x31cc362abd08e7d3:0x232e1ff540d86c99!8m2!3d3.1319197!4d101.6840589!16zL20vMDQ5ZDE?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D",
   description:

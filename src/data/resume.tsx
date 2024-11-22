@@ -49,9 +49,8 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:viviansylvia98@gmail.com",
+        url: "https://mail.google.com/mail/?view=cm&fs=1&to=viviansylvia98@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
     },
